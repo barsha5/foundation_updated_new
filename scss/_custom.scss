@@ -1,0 +1,162 @@
+.top-bar-right{
+  a:hover{
+    border-top: darkturquoise solid 2px;
+  }
+  a{
+    color: #0a0a0a;
+  }
+}
+.top-bar{
+  padding: 5px 50px;
+}
+.top-bar-left{
+  h6{
+    color: darkturquoise;
+  }
+  span{
+    font-size: 20px;
+  }
+}
+.overlay-container {
+  position: relative;
+}
+
+.overlay-container .overlay {
+  position: absolute;
+  bottom: 50%;
+  left: 10%;
+  right: 10%;
+  padding: 0.4rem;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+}
+.headerbreaker{
+  padding: 30px 0px;
+  background: darkturquoise;
+  h5{
+    color: white;
+    padding-top: 5px;
+  }
+  p{
+    color: white;
+  }
+}
+
+.overlay-container2 {
+  position: relative;
+}
+
+.overlay-container2 .overlay2 {
+  position: absolute; /* <-- Remove the overlay from normal flow         */
+  bottom: 0%;          /* <-- Keep the overlay at the bottom of the box   */
+  left: 0;            /* <-- Set left and right properties to 0          */
+  right:0;            /*     In order to expand the overlay horizontally */
+  top: 0;
+  padding: 0.4rem;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+}
+
+.album{
+  h2{
+    margin-top: 2%;
+  }
+  h5{
+    margin-bottom: 2%;
+  }
+  img:hover{
+    opacity: 0.5;
+  }
+  .subalbum{
+    background-color: hsla(0, 0, 0, 0.5);
+    margin: 10px;
+    border: 1px solid #ccc;
+  }
+  .desc {
+    padding: 15px;
+    text-align: center;
+    .p{
+      margin-bottom: 3px;
+    }
+  }
+}
+
+.vlogsection{
+  h3{
+    color: #5e5e5e;
+    padding-top: 10px;
+  }
+  h5{
+    color: #5e5e5e;
+  }
+  p{
+    color: #5e5e5e;
+  }
+}
+
+.graydiv{
+  background-color: lightgrey;
+  padding: 3% 0%;
+  h3{
+    color: #5e5e5e;
+    padding-bottom: 2%;
+  }
+}
+
+.autoplay{
+  img{
+    width: auto;
+    height: 80px;
+  }
+}
+
+.team{
+  padding: 5px;
+  h3{
+    padding: 20px 0px;
+    margin: 10px 0px;
+    color: #5e5e5e;
+  }
+  h5{
+    color: #5e5e5e;
+  }
+  .grid-x{
+    margin-bottom: 2%;
+  }
+}
+
+.search{
+  background-color: darkturquoise;
+  padding: 5px;
+  i{
+    font-size: 24px;
+    color: #5e5e5e;
+  }
+  h5{
+    color: white;
+  }
+  ul{
+
+  }
+
+}
+
+.subfooter{
+  background-color: #3b3b3b;
+  color: #5e5e5e;
+  padding: 3% 0%;
+  h2{
+    color: lightgrey;
+  }
+}
+
+.footer{
+  background-color: #232323;
+  color: lightgrey;
+  padding: 5px;
+  i{
+    font-size: 24px;
+    color: white;
+  }
+
+}
